@@ -1,0 +1,16 @@
+.dialog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.dialog-imagel {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 56px 20px 50px 50px;
+}
+
+.dialog-imager {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 56px 20px 50 px 50px;
+}

@@ -1,0 +1,238 @@
+.sect {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.leftbar {
+    height: 100vh;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border: solid #d5d1d1;
+    border-width: thin;
+}
+
+.topbar {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    height: 55px;
+    color: black;
+}
+
+.prodim {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.searchbox {
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    width: 350px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+}
+
+.searchtxt {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(237, 236, 236);
+    color: rgb(173, 166, 166);
+    width: 100%;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 6px;
+    border-radius: 12px;
+}
+
+.searchcon {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+    color: rgb(173, 166, 166);
+    background-color: rgb(237, 236, 236);
+    padding-top: 1px;
+}
+
+.comdim {
+    padding-left: 150px;
+    padding-top: 18px;
+}
+
+.fildim {
+    color: black;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.stadim {
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+.notdim {
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+.mendim {
+    padding-left: 17px;
+    padding-top: 18px;
+    border: none;
+    outline: none;
+}
+
+.chatlist {
+    display: flex;
+    flex-direction: row;
+    width: 54vh;
+    height: 60px;
+    background-color: rgb(245, 245, 255);
+    margin-top: 2px;
+}
+
+.chatpro {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.chatinfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.conname {
+    font-size: 16px;
+    color: black;
+    width: 135%;
+    padding-left: 30px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.conmsg {
+    font-size: 14px;
+    color: black;
+    margin-top: 3px;
+    width: 100%;
+    padding-left: 32px;
+    position: relative;
+}
+
+.time {
+    display: flex;
+    font-size: 14px;
+    color: black;
+    margin-top: 12px;
+    width: 100%;
+    padding-left: 150px;
+    position: relative;
+}
+
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.about {
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55px;
+    color: black;
+}
+
+.send {
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    color: black;
+    margin-top: 55px;
+}
+
+.abtname {
+    font-size: 16px;
+    color: black;
+    width: 100px;
+    padding-left: 17px;
+    margin-top: 17px;
+}
+
+.chatsrc {
+    padding-left: 750px;
+    margin-top: 17px;
+}
+
+.chatmenu {
+    padding-left: 15px;
+    margin-top: 17px;
+}
+
+.emoji {
+    padding-left: 20px;
+    margin-top: 17px;
+}
+
+.file {
+    padding-left: 20px;
+    margin-top: 17px;
+}
+
+.searchcon1 {
+    width: 820px;
+    margin-left: 15px;
+    color: rgb(173, 166, 166);
+    background-color: white;
+    margin-top: 9px;
+    border: none;
+    outline: none;
+    height: 43px;
+    border-radius: 12px;
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+.aboutspeak {
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.msgright {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.men_con {
+    width: 100px;
+    height: 100px;
+}
+
+.options {
+    font-size: 14px;
+    padding: 15px 60px 5px 24px;
+}
